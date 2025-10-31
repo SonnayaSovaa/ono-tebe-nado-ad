@@ -1,1 +1,53 @@
-/* место для вашего кода */
+.body {
+    
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items:center;
+    padding: 92px 50px 96px;
+}
+
+.header__logo {
+    display: block;
+    width: 148px;
+    height: 105px;
+}
+
+.header__logo-image{
+
+}
+
+.header__menu {
+
+}
+
+.header__links-list {
+    list-style:circle;
+    display: flex;
+    gap: 30px;
+}
+
+.header__links-list-item{
+
+}
+
+.header__link {
+    font-size: 18px;
+
+}
+
+.header__link_active{
+
+}
+
+.header__address{
+    max-width:240px;
+    justify-self: end;
+}
+
+.address {
+    font-size: 18px;
+    font-style: normal;
+}
