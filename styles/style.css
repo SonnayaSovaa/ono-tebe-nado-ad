@@ -2,21 +2,19 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 0 50px 0  50px;
-  margin-top: 92px;
+  padding: 92px 50px 41px 50px;
 }
 
 .header__logo {
   display: block;
-  width: 148px;
-  height: 105px;
-
+  width: 137px;
 }
 
 .header__links-list {
   list-style: circle;
   display: flex;
-  gap: 30px;
+  gap: 33px;
+  padding-bottom: 4px;
 }
 
 .header__links-list-item {
@@ -33,13 +31,17 @@
 }
 
 .header__address {
-  max-width: 240px;
+  width: 240px;
   justify-self: end;
+  padding-bottom: 4px;
 }
 
 .address {
   font-size: 18px;
   font-style: normal;
+  text-align: left;
+  padding: 0;
+  line-height: 24.3px;
 }
 
 /* ----- cover ------*/
@@ -72,6 +74,7 @@
 
 .cover__title span {
   display: grid;
+  margin-bottom: 18px;
 }
 
 .aligned-text {
@@ -80,10 +83,14 @@
 
 .aligned-text_center {
   justify-content: center;
+  padding-left: 30px;
 }
 
 .aligned-text_right {
+  padding: 0;
+  margin: 0;
   justify-content: end;
+  margin-right: -30px;
 }
 
 .cover__description {
@@ -95,9 +102,10 @@
 
 .cover__description-text {
   font-size: 22px;
-  word-spacing: 20px;
+  word-spacing: 18px;
   color: white;
   text-transform: uppercase;
+  margin-top: 3px;
   font-style: normal;
 }
 
@@ -109,6 +117,7 @@
   font-size: 22px;
   color: white;
   text-transform: uppercase;
+  margin-top: 3px;
   font-style: normal;
 
   justify-content: flex-end;
@@ -198,14 +207,15 @@
 
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
-  grid-template-rows: 1fr 1fr;
-  margin: 0 24px;
+  grid-template-columns: 334px 766px;
+  grid-template-rows: min-content 1fr;
+  margin: 0 40px 0 24px;
+  gap: 0;
 }
 .about__column {
   grid-row: 2;
   grid-column: 2;
-  margin-left: 25px;
+  padding: 0;
 }
 
 .about__logo {
@@ -231,20 +241,25 @@
 }
 
 .about__title {
+  margin-top: 42px;
   grid-row: 1;
   grid-column: 2;
   display: flex;
   align-items: center;
   font-size: 40px;
   text-transform: uppercase;
+
+  padding-left: 24px;
 }
 
 .about__text {
+  padding-left: 24px;
   font-size: 20px;
+  padding-top: 9px;
 }
 
-.about__text:nth-child(1) {
-  margin-bottom: 24px;
+.about__text:nth-child(2) {
+  padding-top: 23px;
 }
 
 /* ----- footer ------*/
@@ -253,6 +268,7 @@
   margin: 180px 50px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  padding-top: 1px;
 }
 .footer__menu {
   margin-bottom: 82px;
@@ -261,6 +277,7 @@
 .footer__menu-list {
   list-style-type: none;
   text-align: center;
+  font-size: 18px;
 }
 
 .footer__menu-link {
