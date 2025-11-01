@@ -207,9 +207,9 @@
 
 .about {
   display: grid;
-  grid-template-columns: 334px 766px;
+  grid-template-columns: 334px 1fr;
   grid-template-rows: min-content 1fr;
-  margin: 0 40px 0 24px;
+  margin: 0 24px 0 24px;
   gap: 0;
 }
 .about__column {
